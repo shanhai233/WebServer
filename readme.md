@@ -48,16 +48,12 @@ make
 ./webbench-1.5/webbench -c 10000 -t 10 http://ip:port/
 ```
 * 测试环境: Ubuntu:18.04 内存:4G （虚拟机）
-
 * QPS 10000+
-
 * 实验结果
-  
-  ![](.\readme_files\webbench.png)
-  
-* 实验效果
 
-<video src=".\readme_files\test.mp4"></video>
+![test_result](https://github.com/shanhai233/WebServer/blob/a5951be57f27d5b055cc600d40904f151730daf9/readme_files/webbench.png)
+
+* 实验效果
 
 ## **致谢**
 * Linux高性能服务器编程，游双著
