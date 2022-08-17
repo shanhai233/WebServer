@@ -51,7 +51,7 @@ make
 * QPS 10000+
 * 实验结果
 
-![test_result](https://github.com/shanhai233/WebServer/blob/a5951be57f27d5b055cc600d40904f151730daf9/readme_files/webbench.png)
+![](readme_files/webbench.png)
 
 * 实验效果
 
