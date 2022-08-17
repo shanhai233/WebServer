@@ -1,5 +1,5 @@
 # WebServer
-用C++实现的高性能WEB服务器，经过webbenchh压力测试可以实现上万的QPS
+基于C++和Linux实现的Web服务器，经过webbenchh压力测试可以实现上万的QPS
 
 ## 功能详情
 * 利用IO复用技术Epoll与线程池实现事件处理(Reactor和模拟Proactor均实现)的高并发模型
