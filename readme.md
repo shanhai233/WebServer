@@ -15,6 +15,7 @@
 * Linux
 * C++14
 * MySql
+* jsoncpp
 
 
 ## 项目启动
@@ -47,13 +48,16 @@ make
 ./webbench-1.5/webbench -c 10000 -t 10 http://ip:port/
 ```
 * 测试环境: Ubuntu:18.04 内存:4G （虚拟机）
-* QPS 10000+
-* 实验j结果
-  * ![](readme_files\webbench.png)
 
+* QPS 10000+
+
+* 实验结果
+  
+  ![](.\readme_files\webbench.png)
+  
 * 实验效果
 
-<video src="readme_files\test.mp4"></video>
+<video src=".\readme_files\test.mp4"></video>
 
 ## **致谢**
 * Linux高性能服务器编程，游双著
