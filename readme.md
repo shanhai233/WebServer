@@ -55,7 +55,7 @@ make
 
 * 实验效果
 
-<video src="readme_files/test.mp4"></video>
+![test gif](readme_files/test_gif.gif)
 
 ## **致谢**
 * Linux高性能服务器编程，游双著
