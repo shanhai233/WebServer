@@ -9,7 +9,6 @@ int main(int argc, char *argv[])
 
     //命令行解析
     Config config;
-    //config.parse_arg(argc, argv);
 
     WebServer server(
         config.PORT, config.TRIGMode, config.timeout, config.OPT_LINGER, config.ActorModel,      /* 端口 ET模式 timeoutMs 优雅退出  */

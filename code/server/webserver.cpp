@@ -234,13 +234,6 @@ void WebServer::EventLoop() {
     if(!isClose_) { LOG_INFO("========== Server start =========="); }
     while(!isClose_) {
 
-        // // 如果设置了超时时间，清除超时的节点，然后获取最先要超时的连接的超时的时间
-        // if(timeoutMS_ > 0) {
-        //     timeMS = timer_->GetNextTick();
-        // }
-        // // 当timeMS时间内有事件发生，epoll_wait()返回，否则等到了timeMS时间后才返回
-        // int eventCnt = epoller_->Wait(timeMS);
-
         int eventCnt = epoller_->Wait(-1);
         if (eventCnt < 0 && errno != EINTR)
         {
