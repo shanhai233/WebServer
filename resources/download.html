@@ -20,20 +20,6 @@
      <!-- Main css -->
      <link rel="stylesheet" href="css/style.css">
 
-     <script src="js/FileSaver.min.js" charset="utf-8"></script>
-
-     <script type="text/javascript">
-        window.onload = function () {
-            //选项框中的内容变化；onchange事件
-            document.getElementById('city').addEventListener('change',function(){
-                // alert("当前选项是:"+this.value);
-                var blob = new Blob(["欢迎访问 hangge.com"], {type: "text/plain;charset=utf-8"});
-                saveAs(blob, "文件导出测试.txt");
-            },false);
-        }
-     </script>
-
-
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
@@ -121,13 +107,6 @@
             }
         })
     </script>  
-
-
-    <!-- <script type="text/javascript">
-        
-        var blob = new Blob(["欢迎访问 hangge.com"], {type: "text/plain;charset=utf-8"});
-        saveAs(blob, "文件导出测试.txt");
-    </script> -->
 
 </body>
 
