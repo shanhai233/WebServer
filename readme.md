@@ -34,7 +34,7 @@ sudo make && make install
 ```
 
 配置数据库
-```mysql
+```
 // 建立yourdb库
 create database yourdb;
 
